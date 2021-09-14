@@ -5,9 +5,14 @@
         {% block header %}
             {% include "partials/header.twig" %}
         {% endblock %}
-		{% block content %}
-			Sorry, no content
-		{% endblock %}
+        <div>
+            {% block content %}
+                Sorry, no content
+            {% endblock %}
+            {% if sidebar %}
+                {{sidebar}}
+			{% endif %}
+        </div>
         {% block footer %}
             {% include "partials/footer.twig" %}
         {% endblock %}
