@@ -2,6 +2,9 @@
 <html lang="ja">
 	{% include 'partials/head.twig' %}
 	<body>
+        {% block header %}
+            {% include "partials/header.twig" %}
+        {% endblock %}
 		{% block content %}
 			Sorry, no content
 		{% endblock %}
