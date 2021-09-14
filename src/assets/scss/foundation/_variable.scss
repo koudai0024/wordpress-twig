@@ -1,0 +1,46 @@
+// レイアウト幅
+$layout-width-canvas: 1440px;
+$layout-width-container: 1080px;
+$layout-width-smartphone: 768px;
+
+// ブレークポイント（スマホベース）
+$breakpoints-up: (
+  "sp": "(max-width: #{$layout-width-smartphone - 1px})",
+  "tab-only":
+    "(min-width: #{$layout-width-smartphone}) and (max-width: #{$layout-width-container - 1px})",
+  "tab": "(min-width: #{$layout-width-smartphone})",
+  "pc": "(min-width: #{$layout-width-container})",
+  "ie": "(-ms-high-contrast: active), (-ms-high-contrast: none)",
+);
+
+// ブレークポイント（PCベース）
+$breakpoints-down: (
+  "sp": "(max-width: #{$layout-width-smartphone - 1px})",
+  "tab-only":
+    "(min-width: #{$layout-width-smartphone}) and (max-width: #{$layout-width-container - 1px})",
+  "tab": "(max-width: #{$layout-width-container - 1px})",
+  "pc": "(min-width: #{$layout-width-container})",
+  "ie": "(-ms-high-contrast: active), (-ms-high-contrast: none)",
+);
+
+//color
+$color-1: #6366f1;
+
+// アイコン
+$icon-widht: 32px;
+$icon-height: 32px;
+$icon-font: 24px;
+
+// .c-icon
+$icon-circle-color: #000;
+$icon-cross-color: #000;
+$icon-hamburger-color: #000;
+$icon-check-color: #000;
+$icon-arrow-right-color: #000;
+$icon-arrow-bottom-color: #000;
+$icon-arrow-left-color: #000;
+$icon-arrow-top-color: #000;
+$icon-triangle-color: #000;
+$icon-rhombus-color: #000;
+$icon-glass-color: #000;
+$icon-square-color: #000;

@@ -1,0 +1,20 @@
+@use "../../foundation/variable" as *;
+
+.p-globalmenu {
+  background: $color-1;
+  width: 100%;
+}
+.p-globalmenu__list {
+  white-space: nowrap;
+  text-align: center;
+  width: 100%;
+  padding: 12px 0;
+  overflow-x: scroll;
+}
+.p-globalmenu__item {
+  display: inline-block;
+  color: #fff;
+}
+.p-globalmenu__item:not(:last-child) {
+  margin-right: 12px;
+}

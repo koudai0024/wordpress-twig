@@ -1,0 +1,12 @@
+@use "../../foundation/mixin" as *;
+
+@for $i from 0 through 300 {
+  .u-fz-#{$i} {
+    font-size: #{$i}px;
+  }
+  @include mq-up("pc") {
+    .u-fz-#{$i}-pc {
+      font-size: #{$i}px;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "name": "koudai/timber",
+    "authors": [
+        {
+            "name": "koudai0024",
+            "email": "iwai.0731v@gmail.com"
+        }
+    ],
+    "require": {
+        "timber/timber": "^1.18"
+    }
+}

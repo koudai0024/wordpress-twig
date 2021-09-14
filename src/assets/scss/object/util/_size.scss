@@ -1,0 +1,14 @@
+@use "../../foundation/mixin" as *;
+
+.u-h-24 {
+  height: 24px;
+}
+
+@include mq-up("tab") {
+}
+
+@include mq-up("pc") {
+  .u-h-32-pc {
+    height: 32px;
+  }
+}

@@ -1,0 +1,20 @@
+@use "../../foundation/mixin" as *;
+
+@for $i from 0 through 300 {
+  .u-mr-#{$i} {
+    margin-right: #{$i}px;
+  }
+  .u-py-#{$i} {
+    padding-top: #{$i}px;
+    padding-bottom: #{$i}px;
+  }
+  .u-pt-#{$i} {
+    padding-top: #{$i}px;
+  }
+  @include mq-up("pc") {
+    .u-py-#{$i}-pc {
+      padding-top: #{$i}px;
+      padding-bottom: #{$i}px;
+    }
+  }
+}
