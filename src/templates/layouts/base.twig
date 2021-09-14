@@ -5,5 +5,9 @@
 		{% block content %}
 			Sorry, no content
 		{% endblock %}
+        {% block footer %}
+            {% include "partials/footer.twig" %}
+        {% endblock %}
+        {{ function('wp_footer') }}
 	</body>
 </html>
